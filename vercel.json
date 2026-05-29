@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "functions": {
+    "search.py": {
+      "runtime": "python3.12"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/search",
+      "dest": "search.py"
+    }
+  ]
+}
