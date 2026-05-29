@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "functions": {
-    "search.py": {
-      "runtime": "python3.12"
+  "builds": [
+    {
+      "src": "search.py",
+      "use": "@vercel/python"
     }
-  },
+  ],
   "routes": [
     {
       "src": "/api/search",
